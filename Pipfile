@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.2.0"
+numpy = "*"
+sklearn = "*"
+pandas = "*"
+pillow = "*"
+keras = "*"
+tqdm = "*"
+opencv-contrib-python = "*"
+matplotlib = "*"
+python-telegram-bot = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

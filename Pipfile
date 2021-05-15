@@ -16,6 +16,7 @@ matplotlib = "*"
 python-telegram-bot = "*"
 cv = "*"
 telegram = "*"
+pytelegrambotapi = "*"
 
 [dev-packages]
 

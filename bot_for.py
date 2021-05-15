@@ -3,6 +3,7 @@ from PIL import Image
 from keras.models import load_model
 import warnings
 import logging
+import os
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 from telegram.ext import (
     Updater,
@@ -129,7 +130,7 @@ def photo(update: Update, _: CallbackContext) -> int:
     user = update.message.from_user
     photo_file = update.message.photo[-1].get_file()
     photo_file.download('user_photo.jpg')
-    image_path = "C:/Users/iurru/Desktop/my-project/user_photo.jpg"
+    image_path = os.getcwd() + "/user_photo.jpg"
     reply = classify(image_path)
     logger.info("Photo of %s: %s", user.first_name, 'user_photo.jpg')
     update.message.reply_text(

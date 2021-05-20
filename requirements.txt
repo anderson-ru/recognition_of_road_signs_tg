@@ -1,3 +1,4 @@
+python-3.8.5
 pyTelegramBotAPI==3.7.9
 python-telegram-bot==13.5
 tensorflow==2.2.0

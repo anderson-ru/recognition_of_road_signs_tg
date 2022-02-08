@@ -175,7 +175,7 @@ def main() -> None:
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
 
-    # Add conversation handler with the states GENDER, PHOTO, LOCATION and BIO
+   
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
         states={

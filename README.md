@@ -11,5 +11,3 @@ Data visualization and analysis — matplotlib, seaborn
 
 Telegram bot in Python — telegram (python-telegram-bot)
 
-## The Status of project:
-* In process
